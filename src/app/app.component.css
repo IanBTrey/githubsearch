@@ -1,0 +1,39 @@
+nav>ul>li{
+  display: inline-block;
+  margin-right: 5%;
+}
+h2{
+  color: yellow;
+}
+nav>ul>li>a{
+   font-family: 'Merienda', cursive;
+   font-size: 20px;
+   font-weight: bold;
+   text-decoration: none;
+ }
+ av>ul>li>a:hover{
+     color: black;
+     text-decoration: underline;
+   }
+   .topbar{
+        padding-top: 2%;
+        padding-bottom: 1%;
+        text-align: center;
+
+        margin: 0.5%;
+        border-radius: 0.25rem;
+        font-family: 'courier', serif;
+    }
+    a, .title h5{
+    color: yellow;
+  }
+
+  .col-md-4{
+    margin-left: auto;
+    padding-left: auto;
+  }
+
+  .col-md-2{
+    margin-right: auto;
+    padding-right: auto;
+  }
