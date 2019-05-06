@@ -1,0 +1,30 @@
+
+<div class="container-fluid">
+  <div class="">
+      <h2>welcome to my landing page!</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <form class="form-group">
+        <input class = "form-control" placeholder="Enter Username" [(ngModel)] = "userName" name = "userName" (keyup) = userLookup()>
+        <button type="reset" class="btn btn-success">Clear</button>
+      </form>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img [src]="user.avatar">
+      </div>
+      <div class="col-md-12">
+        <div class="output card">
+          <h3 appHighlight><strong>{{user.username}}</strong></h3>
+          <h6><strong>Bio: </strong> <em>{{user.bio}}</em></h6>
+          <h6><strong>Name: </strong> <em>{{user.name}}</em></h6>
+          <h6><strong>Repositories: </strong> <em>{{user.repositories}}</em></h6>
+          <h6><strong>Followers: </strong> <em>{{user.followers}}</em></h6>
+          <h6><strong>Following: </strong> <em>{{user.following}}</em></h6>
+          <button class="btn btn-info"><a [href]="user.link">Visit the GitHub Page</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
